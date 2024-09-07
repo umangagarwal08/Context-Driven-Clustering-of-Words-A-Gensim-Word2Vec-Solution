@@ -25,7 +25,7 @@ The dataset consists of Amazon customer reviews for phones and tablets. Each rev
 ## How It Works
 1. **Load the Data**: The Amazon customer reviews dataset is loaded using pandas. Each review is preprocessed (e.g., tokenization, lowercasing) to prepare it for training the Word2Vec model.
   
-2. **Train the Word2Vec Model**: The `gensim.models.Word2Vec` library is used to create and train a model on the customer review text data. The model learns word embeddings based on the context in which words appear in the reviews.
+2. **Train the Word2Vec Model**: The **gensim.models.Word2Vec** library is used to create and train a model on the customer review text data. The model learns word embeddings based on the context in which words appear in the reviews.
 
 3. **Analyze Word Similarities**: After training the model, we use it to:
     - Find words similar to a given word based on their vector representations.
