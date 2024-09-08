@@ -4,7 +4,7 @@
 This project demonstrates the use of the Word2Vec library to build a word embedding model from customer reviews of phones and tablets purchased from Amazon. The objective is to train a model that captures semantic relationships between words based on the context in which they appear in the reviews. After training, the model is used to showcase word similarities and provide a list of similar words for given input words.
 
 ## Dataset
-The dataset consists of Amazon customer reviews for phones and tablets. Each review describes the customer’s experience with the product, including aspects such as performance, usability, and design. The dataset is loaded and processed using `pandas` for use in the Word2Vec model.
+The dataset consists of Amazon customer reviews for phones and tablets. Each review describes the customer’s experience with the product, including aspects such as performance, usability, and design. The dataset is loaded and processed using pandas for use in the Word2Vec model.
 
 ## Project Structure
 - **word2vec_model.py**: The script where the Word2Vec model is implemented and trained on the Amazon reviews dataset.
